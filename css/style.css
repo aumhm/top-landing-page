@@ -144,15 +144,42 @@ svg {
   margin-right: 44px;
 }
 
-.cta-container {
+.cta-wrapper {
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cta-container {
+  display: flex;
+  gap: 120px;
   background-color: #3882F6;
+  padding: 40px 100px;
+  border-radius: 8px;
+}
+
+.cta-left-section {
+  color: white;
+  flex: 5;
+}
+
+.cta-main-text {
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .cta-button {
   color: white;
-  border-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
 
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #1F2937;
+  color: white;
 }
